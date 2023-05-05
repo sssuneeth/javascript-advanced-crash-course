@@ -1,6 +1,7 @@
 /**
  * Custom Iterator
  * ---------------
+ * Custom iterator can be made wth [Sybmol.iterator] method.
  * */
 
 // this message object a custom made iterator
@@ -25,3 +26,5 @@ const messages = {
 for (const msg of messages) {
 	console.log(msg);
 }
+// >>> Hey
+// >>> Dude
