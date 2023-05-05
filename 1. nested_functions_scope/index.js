@@ -3,13 +3,13 @@
 let text = "Hello";
 
 function outer() {
-	let text_two = "World";
+    let text_two = "World";
 
-	function inner() {
-		let text_three = "!";
-		console.log(text, text_two, text_three);
-	}
-	inner();
+    function inner() {
+        let text_three = "!";
+        console.log(text, text_two, text_three);
+    }
+    inner();
 }
 outer();
 
