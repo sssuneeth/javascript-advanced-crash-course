@@ -5,12 +5,14 @@
  * A new keyword is used to create an object from the constructor function.
  * */
 
-let Person = function(name, age) {
-	// creates a empty object like this={}
-	this.name = name;
-	this.age = age;
-	this.log = function() {
-		console.log(`${this.name} is ${this.age} years old`);
+class Person {
+	constructor(name, age) {
+		// creates a empty object like this={}
+		this.name = name;
+		this.age = age;
+		this.log = function() {
+			console.log(`${this.name} is ${this.age} years old`);
+		}
 	}
 }
 
