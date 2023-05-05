@@ -13,8 +13,14 @@ function Admin(name, age) {
 	// this = {}
 	User.call(this, name, age);
 	this.isAdmin = true;
+	/**
+	 * another way
+	 * @example
+	 * __proto__: User
+	 * */
 }
 // by this we add new proprties and method to Admin from User
+// this is recommented
 Admin.prototype = Object.create(User.prototype);
 Admin.prototype.constructor = Admin;
 
